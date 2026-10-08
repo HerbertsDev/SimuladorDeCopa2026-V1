@@ -1,16 +1,16 @@
-# 🏆 Simulador de Copa do Mundo 2026
+#Simulador de Copa do Mundo 2026
 
 ![Demonstração do algoritmo](https://github.com/user-attachments/assets/218f43e3-982d-475d-bb6f-40476986d0a0)
 
 Projeto desenvolvido em Python para simular as fases eliminatórias da Copa do Mundo de 2026, com geração automática de resultados, disputa de pênaltis em caso de empate e armazenamento dos dados em banco SQLite.
 
-## 🚀 Tecnologias Utilizadas
+##Tecnologias Utilizadas
 
 - Python 3
 - SQLite
 - SQL
 
-## ⚙️ Funcionalidades
+##Funcionalidades
 
 - Simulação das oitavas de final
 - Simulação das quartas de final
@@ -21,7 +21,7 @@ Projeto desenvolvido em Python para simular as fases eliminatórias da Copa do M
 - Armazenamento dos resultados em banco de dados SQLite
 - Consultas SQL para análise dos dados gerados
 
-## 📂 Estrutura do Projeto
+##Estrutura do Projeto
 
 ```text
 Simulador-de-Copa-2026/
@@ -33,7 +33,7 @@ Simulador-de-Copa-2026/
 └── README.md
 ```
 
-## ▶️ Como Executar
+##Como Executar
 
 1. Certifique-se de possuir o Python 3 instalado.
 2. Clone o repositório:
@@ -54,7 +54,7 @@ cd Simulador-de-Copa-2026
 python copa.py
 ```
 
-## 📊 Exemplo de Saída
+##Exemplo de Saída
 
 ```text
 Oitavas de Final
@@ -66,11 +66,11 @@ Brasil 1 x 0 Argentina → Classificado: Brasil
 🏆 Campeão da Copa 2026: Brasil
 ```
 
-## 🗄️ Banco de Dados
+##Banco de Dados
 
 Todos os resultados das partidas são armazenados em um banco SQLite, permitindo consultas e análises posteriores por meio dos scripts disponíveis em `consultas.sql`.
 
-## 🔍 Exemplos de Consultas SQL
+##Exemplos de Consultas SQL
 
 O projeto inclui consultas para analisar os resultados armazenados no banco de dados SQLite.
 
@@ -104,7 +104,7 @@ FROM partidas
 WHERE fase = 'Final';
 ```
 
-## 🎯 Objetivo do Projeto
+##Objetivo do Projeto
 
 Este projeto foi desenvolvido com o objetivo de praticar:
 
@@ -114,7 +114,7 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 - Consultas SQL
 - Organização de projetos em Python
 
-## 👨‍💻 Autor
+##Autor
 
 Herbert Da Silva Da Cruz
 
